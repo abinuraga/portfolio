@@ -2,7 +2,17 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
-import profil from "./img/spider.jpg";
+
+import profil2 from "./img/pas foto_.jpg";
+import project1 from "./img/foodradar1.png";
+
+import project2 from "./img/webprofil_IL.png";
+import project3 from "./img/msib1.png";
+
+import project4 from "./img/massive projek1.png";
+
+import project5 from "./img/skripsi1.png";
+
 
 function Home() {
     
@@ -49,10 +59,10 @@ function Home() {
                     <div className="text-center md:text-left" data-aos="fade-down" data-aos-delay="300">
 
                         <p className="mb-3 text-lg font-medium text-blue-600">Halo, Nama saya </p>
-                        <h1 className="mb-3 text-lg font-medium text-blue-600"> Adam Levine</h1>
+                        <h1 className="mb-3 text-lg font-medium text-blue-600"> Abiyyu Nuraga Adi</h1>
                         <h2 className="mt-4 text-2xl font-semibold text-gray-600"> Web Developer</h2>
                         <p className="mt-6 max-w-xl text-gray-500"> Saya seorang developer yang tertarik pada 
-                            pembuatan front end website.
+                            pengembangan front end website.
                         </p>
                         <div className="mt-8 flex justify-center gap-4 md:justify-start">
                             <a href="#projects" className="rounded-lg bg-blue-600 px-6 py-3 font-medium text-white transition hover:bg-blue-700">
@@ -65,9 +75,9 @@ function Home() {
                         </div>
                     </div>
 
-                    <div className="flex justify-center" data-aos="slide-left" data-aos-delay="300">
+                    <div className="flex justify-center translate-y-10" data-aos="slide-left" data-aos-delay="300">
 
-                        <img src={profil} alt="Profile" className="h-72 w-72 rounded-full object-cover shadow-xl md:h-96 md:w-96"/>
+                        <img src={profil2} alt="Profile" className="h-60 w-60 rounded-full object-cover shadow-xl md:h-96 md:w-96"/>
                     </div>
                 </div>
             </section>
@@ -91,10 +101,11 @@ function Home() {
 
                             {/* informasi */}
                             <div>
-                                <h3 className="text-2xl font-bold" data-aos="fade-up" data-aos-delay="100"> Adame Levine</h3>
+                                <h3 className="text-2xl font-bold" data-aos="fade-up" data-aos-delay="100"> Abiyyu Nuraga Adi</h3>
                                 <p className="mt-4 mb-6 leading-relaxed text-gray-600" data-aos="fade-up" data-aos-delay="100">
-                                    Saya adalah seorang web developer yang memiliki ketertarikan
-                                    terhadap pengembangan desain web dari wireframe hingga Front End Desainer
+                                    Saya membantu bisnis dan tim produk dalam menciptakan interface website yang cepat,skalabel, dan responsif.
+                                    Dengan menggunakan framework react.js ditambah dengan tailwind.css memudahkan saya untuk mengembangkan web dengan cepat
+                                    dan tampilan yang responsif dan user friendly.
                                 </p>
                                 
                                 {/* data pribadi */}
@@ -106,7 +117,7 @@ function Home() {
 
                                     <div className="flex border-b pb-3">
                                         <span className="w-32 font-semibold">Email : </span>
-                                        <span className="text-gray-600">adam.levine@gmail.com</span>
+                                        <span className="text-gray-600">abi.nuragaadi@gmail.com</span>
                                     </div>
 
                                     <div className="flex border-b pb-3">
@@ -184,14 +195,79 @@ function Home() {
                         {/*project 1*/}
                         <div className="overflow-hidden rounded-xl bg-white shadow-lg transition hover:-translate-y-2">
 
-                            <img src={profil} alt="project1" className="h-52 w-full object-cover"/>
+                            <img src={project1} alt="project1" className="h-52 w-full object-cover"/>
 
                             <div className="p-6">
-                                <h3 className="text-xl font-bold">judul Project One</h3>
-                                <p className="mt-3 text-gray-500">deksripsi projeknya</p>
+                                <h3 className="text-xl font-bold">website foodradar</h3>
+                                <p className="mt-3 text-gray-500">Pembuatan website pertama untuk tugas kuliah</p>
+
+                                <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-orange-600">
+                                    html
+                                </span>
 
                                 <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-600">
-                                    react
+                                    css
+                                </span>
+                            </div>
+
+                           
+                        </div>
+
+                        {/* project 2 */}
+
+                        <div className="overflow-hidden rounded-xl bg-white shadow-lg transition hover:-translate-y-2">
+
+                            <img src={project2} alt="project1" className="h-52 w-full object-cover"/>
+
+                            <div className="p-6">
+                                <h3 className="text-xl font-bold">webprofil</h3>
+                                <p className="mt-3 text-gray-500">Pembuatan website profil sebagai tugas pertama dalam magang MSIB</p>
+
+                                <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-orange-600">
+                                    html
+                                </span>
+
+                                <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-600">
+                                    css
+                                </span>
+                            </div>
+
+                            
+                        </div>
+                        {/* project 3 */}
+
+                        <div className="overflow-hidden rounded-xl bg-white shadow-lg transition hover:-translate-y-2">
+
+                            <img src={project3} alt="project1" className="h-52 w-full object-cover"/>
+
+                            <div className="p-6">
+                                <h3 className="text-xl font-bold">SKILLKITA</h3>
+                                <p className="mt-3 text-gray-500">Project kerja kelompok membuat website berdasarkan studi kasus tenaga kerja</p>
+
+                                <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-orange-600">
+                                    html
+                                </span>
+
+                                <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-600">
+                                    css
+                                </span>
+                            </div>
+
+                            
+                        </div>
+
+                        {/* project 4 */}
+
+                        <div className="overflow-hidden rounded-xl bg-white shadow-lg transition hover:-translate-y-2">
+
+                            <img src={project4} alt="project1" className="h-52 w-full object-cover"/>
+
+                            <div className="p-6">
+                                <h3 className="text-xl font-bold">Peace Community</h3>
+                                <p className="mt-3 text-gray-500">Project massive MSIB membuat website layanan masyarakat dengan studi kasus laporan pengaduan</p>
+
+                                <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-orange-600">
+                                    React
                                 </span>
 
                                 <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-600">
@@ -199,14 +275,30 @@ function Home() {
                                 </span>
                             </div>
 
-                            <a
-                            href="#"
-                            className="mt-6 inline-block font-medium text-blue-600 hover:underline">
-                                View project
-                            </a>
+                            
+                        </div>
+                        {/* project 5 */}
+
+                        <div className="overflow-hidden rounded-xl bg-white shadow-lg transition hover:-translate-y-2">
+
+                            <img src={project5} alt="project1" className="h-52 w-full object-cover"/>
+
+                            <div className="p-6">
+                                <h3 className="text-xl font-bold">Collaborative jamming</h3>
+                                <p className="mt-3 text-gray-500">Tugas Skripsi kuliah membuat website berdasarkan layanan pendaftaran webinar untuk mendapatkan sertifikasi</p>
+
+                                <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-orange-600">
+                                    php
+                                </span>
+
+                                <span className="rounded-full bg-blue-100 px-3 py-1 text-sm text-blue-600">
+                                    laravel
+                                </span>
+                            </div>
+
+                            
                         </div>
 
-                        {/* project 2 */}
                     </div>
                 </div>
             </section>
