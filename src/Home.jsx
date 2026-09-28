@@ -127,7 +127,7 @@ function Home() {
 
                                     <div className="flex border-b pb-3">
                                         <span className="w-32 font-semibold">Pendidikan : </span>
-                                        <span className="text-gray-600"> Universitas Gunadarma (2024)</span>
+                                        <span className="text-gray-600"> Universitas Gunadarma (2020 - 2024)</span>
                                     </div>
 
 
@@ -305,7 +305,7 @@ function Home() {
 
             <footer className="bg-gray-900 px-6 py-8 text-center text-white">
 
-                <p>@ 2026 Adam Levine, All right reserved</p>
+                <p>@ 2026 Abiyyu Nuraga Adi, All right reserved</p>
             </footer>
         </div>
     )
