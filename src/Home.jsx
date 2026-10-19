@@ -51,7 +51,7 @@ function Home() {
             </nav>
 
             {/* Hero */}
-            <section id="home" className="flex min-h screen items-cener justify-center px-6 pt-20">
+            <section id="home" className="flex min-h-screen items-center justify-center px-6 pt-20">
                 
                 <div className="mx-auto grid max-w-6xl items-center gap-12 md:grid-cols-2">
 
@@ -109,7 +109,7 @@ function Home() {
                                 </p>
                                 
                                 {/* data pribadi */}
-                                <div classname="mt-8 space-y-4" data-aos="fade-up" data-aos-delay="300">
+                                <div className="mt-8 space-y-4" data-aos="fade-up" data-aos-delay="300">
                                     <div className="flex border-b pb-3">
                                         <span className="w-32 font-semibold">No telp : </span>
                                         <span className="text-gray-600">081344827354 (whatsapp) </span>
@@ -157,7 +157,7 @@ function Home() {
 
                     <div className="relative space-y-9">
                         <div className="absolute left-0 top-0 h-full w-[2px] bg-red-600"></div>
-                        <div className="relative ml-7 border-r-7 border-purple-600 rounded-lg bg-gray-200 p-4 shadow-sm" data-aos="slide-right" data-aos-delay="100">
+                        <div className="relative ml-7 border-r-4 border-purple-600 rounded-lg bg-gray-200 p-4 shadow-sm" data-aos="slide-right" data-aos-delay="100">
 
                             <div className="absolute -left-[35px] top-0 h-4 w-4 rounded-full bg-blue-500"></div>
 
