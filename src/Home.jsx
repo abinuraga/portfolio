@@ -95,7 +95,7 @@ function Home() {
 
                         </div>
 
-                        <div className="grid items-center gap-12 md:grid-cols-2">
+                        <div className="grid items-center gap-12 ">
 
                             
 
